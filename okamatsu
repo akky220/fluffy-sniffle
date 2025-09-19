@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p id="asd">Hi.</p>
+  <button id="destroyPC">Go back</button>
+  <script>
+    const me = 1;
+    const destroyPC = document.getElementById("destroyPC")
+
+    destroyPC.addEventListener('click', () => {
+    while (me < 2)
+      {
+        if(me === 1){
+          document.getElementById("asd").textContent = ("FUCK YOU")
+          document.getElementById("asd").textContent = ("NO ONE LIKES YOU")
+        }
+      }
+    })
+   
+  </script>
+</body>
+</html>
